@@ -80,7 +80,7 @@ input {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 0 0.5rem;
+  padding: 0 1rem;
 }
 
 .text {
@@ -159,7 +159,7 @@ input {
   justify-content: space-between;
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 1rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
 
 .link {
@@ -186,7 +186,7 @@ input {
   }
 
   .image img {
-    width: 70vw;
+    width: 60vw;
   }
 
   .text-container {
@@ -194,7 +194,7 @@ input {
   }
 
   .text {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 1rem 0;
   }
 
@@ -210,5 +210,15 @@ input {
   .button-container div {
     width: 1rem;
     height: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .text {
+    font-size: 1rem;
+  }
+
+  .footer {
+    font-size: 1rem;
   }
 }
